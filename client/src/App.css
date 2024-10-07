@@ -1,0 +1,629 @@
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+nav
+{
+  background-color: blue;
+  padding: 1%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+nav ul
+{
+  display: flex;
+  justify-content: end;
+  gap: 5%;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+
+nav ul li a, .sub, nav ul li p, nav a
+{
+  color: white;
+  text-decoration: none;
+  text-shadow: 3px 3px black;
+}
+
+nav ul li a:hover
+{
+  padding: 3px;
+}
+
+.hamburger 
+{
+  display: none;
+  font-size: 24px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar.open 
+{
+  display: block;
+}
+
+#title
+{
+  margin-bottom: 2%;
+}
+
+#pannel
+{
+  display: flex;
+  background-color: rgb(0, 60, 255);
+  color: white;
+  padding: 2%;
+  font-size: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#pannel button
+{
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.categorie
+{
+  display: flex;
+  justify-content: start;
+  margin: 2%;
+  margin-left: 3%;
+  align-items: center;
+}
+
+.categorie input, .weight input, .shipping input
+{
+  width: 150px;
+  margin: 2%;
+  margin-left: 4%;
+}
+
+.categorie textarea, .article_admin textarea
+{
+  width: 150px;
+  height: 60px;
+  margin-right: 4%;
+  resize: none;
+}
+
+.categorie p
+{
+  margin-right: 3%;
+}
+
+.categorie select
+{
+  width: 100px;
+  height: 20px;
+}
+
+#footer
+{
+  background-color: blue;
+}
+
+#search
+{
+  display: flex;
+  position: absolute;
+  right: 50%;
+  top: 39%;
+  border: none;
+  height: 20px;
+}
+
+#search_icon
+{
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.article_admin, .present_admin
+{
+  display: flex;
+  list-style-type: none;
+  margin: 3%;
+  margin-left: 0%;
+  align-items: center;
+}
+
+.article_admin input, .present_admin input
+{
+  width: 120px;
+  margin-right: 2%;
+}
+
+.article_admin textarea, .present_admin textarea
+{
+  margin-right: 2%;
+  width: 120px;
+}
+
+.article_admin textarea
+{
+  margin-right: 1%;
+}
+
+.preview
+{
+  margin-right: 1%;
+}
+
+.flex, .flex-article
+{
+  display: flex;
+  margin-right: 3%;
+  height: 20px;
+  align-items: center;
+}
+
+.form-container
+{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.form-create
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: none;
+}
+
+.form-detail, .form-categorie
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-detail label, .form-categorie label
+{
+  margin-bottom: 5px;
+}
+
+.form-detail input, .form-detail textarea
+{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+#form-admin, #form-payment
+{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#submited-form
+{
+  width: 150px;
+  padding: 1%;
+  border-radius: 7%;
+  position: relative;
+  left: 46%;
+  margin-top: 1%;
+  color: white;
+  background-color: green;
+}
+
+#create-shipping
+{
+  width: 200px;
+  padding: 1%;
+  border-radius: 7%;
+  position: relative;
+  left: 45%;
+  margin-top: 1%;
+  color: white;
+  background-color: green;
+}
+
+.form-categorie input, .form-categorie textarea
+{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 6%;
+  resize: none;
+}
+
+.out_of_stock
+{
+  color: red;
+}
+
+.display-stock
+{
+  height: 20px;
+  margin-right: 1%;
+}
+
+.logo
+{
+  color: white;
+  position: absolute;
+  top: 15%;
+}
+
+.filter_admin
+{
+  list-style-type: none;
+  display: flex;
+  margin-left: 11%;
+  gap: 16%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+#command
+{
+  border: none;
+}
+
+.command_article
+{
+  border: 1px solid black;
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#command_button
+{
+  color: white;
+  position: relative;
+  left: 46%;
+  bottom: 5%;
+  background-color: rgb(0, 210, 140);
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.command_input
+{
+  border: none;
+}
+
+.command_quantities
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 250px;
+}
+
+.button_command
+{
+  background-color: rgb(233, 233, 233);
+  border-radius: 100%;
+  border: none;
+}
+
+.breadcrumbs
+{
+  color: gray;
+}
+
+.categorie_children
+{
+  display: block;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.categorie_children.open
+{
+  display: block;
+  max-height: 200px;
+}
+
+.sub
+{
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+
+.sub:hover
+{
+  background-color: rgb(0, 60, 255);
+  cursor: pointer;
+}
+
+.weight
+{
+  display: flex;
+  justify-content: start;
+  margin: 2%;
+  margin-left: 5%;
+  align-items: center;
+}
+
+.weight input
+{
+  margin-left: 0;
+}
+
+.shipping
+{
+  display: flex;
+  justify-content: start;
+  margin: 2%;
+  margin-left: 1%;
+  align-items: center;
+}
+
+.shipping input
+{
+  width: 120px;
+}
+
+.country_admin
+{
+  display: flex;
+  justify-content: start;
+  margin: 2%;
+  align-items: center;
+}
+
+.country_admin input
+{
+  width: 120px;
+  margin: 2%;
+}
+
+.source-select
+{
+  margin-right: 1%;
+}
+
+.flex-article
+{
+  margin-right: 1%;
+}
+
+#promo-price
+{
+  text-decoration: line-through;
+}
+
+.present_admin
+{
+  margin-left: 5%;
+}
+
+.present_admin input, .present_admin textarea
+{
+  margin-right: 5%;
+}
+
+.present_admin textarea
+{
+  resize: none;
+}
+
+.flex-present
+{
+  margin-right: 7%;
+  display: flex;
+  height: 20px;
+  align-items: center;
+}
+
+.payment-total
+{
+  text-align: center;
+}
+
+#delivery-button
+{
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+#delivery-button:hover
+{
+  background-color: darkblue;
+}
+
+#new
+{
+  margin-right: 1%;
+}
+
+.gift_paper_display
+{
+  width: 100px;
+  height: 100px;
+}
+
+.purchase_orders_admin
+{
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding: 1%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 799px)
+{
+  .form-container
+  {
+    margin-top: 18%;
+    margin-bottom: 18%;
+  }
+
+  .form-container label
+  {
+    margin-bottom: 4%;
+  }
+
+  #footer
+  {
+    padding-bottom: 14%;
+  }
+
+  #submited-form
+  {
+    left: 28%;
+    margin-bottom: 5%;
+  }
+
+  .form-detail
+  {
+    margin-bottom: 1%;
+  }
+
+  .logo
+  {
+    right: 33%;
+  }
+
+  .hamburger
+  {
+    display: block;
+  }
+
+  .navbar
+  {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar.open
+  {
+    display: flex;
+    margin: 0;
+    gap: 12px;
+  }
+
+  #search
+  {
+    display: none;
+  }
+
+  #command_button
+  {
+    left: 40%;
+    bottom: 2%;
+  }
+
+  .command_article
+  {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+
+  #command
+  {
+    margin-top: 5%;
+  }
+
+  .command_quantities
+  {
+    width: 210px;
+  }
+
+  .sub
+  {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  nav
+  {
+    padding: 3%;
+  }
+
+  #cart_nb_articles
+  {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    gap: 25%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px)
+{
+  .form-container
+  {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .form-container label
+  {
+    margin-bottom: 3%;
+  }
+
+  #footer
+  {
+    padding-bottom: 7%;
+  }
+
+  #submited-form
+  {
+    left: 40%;
+    margin-bottom: 2%;
+  }
+
+  .form-detail
+  {
+    margin-bottom: 1%;
+  }
+
+  #search
+  {
+    right: 55%;
+    top: 35%;
+  }
+
+  #search_input
+  {
+    width: 100px;
+  }
+
+  .logo
+  {
+    top: 1%;
+  }
+}

@@ -1,0 +1,118 @@
+.cart-container {
+    width: 70%;
+    margin: 32px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex: 1;
+    text-align: left;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-controls input {
+    width: 50px;
+    text-align: center;
+}
+
+.quantity-controls button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #00cc66;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.quantity-controls button:hover {
+    background-color: #00994d;
+}
+
+.checkout-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #00cc66;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.checkout-button:hover {
+    background-color: #00994d;
+}
+
+#total_price
+{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+#total_price h5
+{
+    color: gray;
+}
+
+.download-pdf-button {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-pdf-button:hover {
+    background-color: #218838;
+  }
+  
+
+@media (max-width: 768px) {
+    .cart-container {
+        width: 90%;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-item img {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+}

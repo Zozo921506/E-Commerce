@@ -1,0 +1,1 @@
+Possibilité d'acheter sans être connecté, achat en étant connecté + ajout au panier pour les utilisateurs connectés et visualiation des bons de commandes / Possibility to buy an item without being logged, buy an item when you are logged + add item to cart and visualization of your commands
